@@ -4,8 +4,9 @@
 ## What is sentiment analysis?
 Sentiment Analysis is the process of ‘computationally’ determining whether a piece of text is positive, negative or neutral.
 
-## About the Dataset
+## Dataset
 This dataset contains the articles published on 23-12-2023 from 8 AM to 2 PM.
+This dataset is fetched from News_API in JSON format & then converted into CSV format.
 
 ## Prerequisites/Requirements
 There are some general library requirements for the project and some which are specific to individual methods.
@@ -16,11 +17,11 @@ The general requirements are as follows:
 3. Matplotlib
 4. TextBlob
 
-## What is TextBlob
+## What is TextBlob?
 TextBlob is a Python library for processing textual data. It provides a simple API for diving into common natural language processing
 tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, classification, translation, and more.
 
-## Polarity
+## What is Polarity?
 Polarity determines if the text expresses the positive, negative or neutral sentiment of the text.
 It range the sentiment between -1 to 1.
 
